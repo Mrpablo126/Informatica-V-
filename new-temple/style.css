@@ -1,6 +1,7 @@
 /* Universal Selector */
 *{
     color:#282828; /* dark gray*/
+    font-family: sans-serif;
 }
 
 /* Element Selector */
@@ -12,7 +13,7 @@ h1{
 
 /* ID Selector */
 #status{
-    font-family: sans=serif;
+    color:saddlebrown;
 }
 
 img{
@@ -30,4 +31,26 @@ img{
     text-transofrm:upper;
     color:saddlebrown;
     font-size:1.2rem;
+    font-weight: bold;
+}
+
+/* Group Selector */
+h1, .subtitle{
+    font-family: serif;
+}
+
+/* Pseudo Class Selector */
+a{
+    text-decoration: none;
+    color: rgb(163, 157, 111);
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+main{
+    width: 600px;
+    margin:
 }
