@@ -17,7 +17,8 @@ header{
 
 main{
     width: 500px;
-    margin: 80px auto 0;
+    margin: 100px auto 0;
+    position: center;
 }
 
 .post{
@@ -48,5 +49,22 @@ main{
     padding: 2px 8px;
     font-weight:bold;
     border-radius:3px;
+
+}
+
+.post-description{
+    padding: 1rem;
+}
+
+.user{
+    font-weight: bold;
+}
+
+.ad{
+    background-color: lightblue;
+    padding: 1rem;
+    position: sticky;
+    top: 100px;
+    height: 200px;
 
 }

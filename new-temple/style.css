@@ -2,6 +2,7 @@
 *{
     color:#282828; /* dark gray*/
     font-family: sans-serif;
+    position: center;
 }
 
 /* Element Selector */
@@ -28,7 +29,7 @@ img{
 }
 
 .subtitile{
-    text-transofrm:upper;
+    text-transofrm:uppercase;
     color:saddlebrown;
     font-size:1.2rem;
     font-weight: bold;
@@ -52,5 +53,8 @@ a:hover{
 
 main{
     width: 600px;
-    margin:
+    margin: 30px;
+}
+p{
+    text-indent: 30px;
 }
