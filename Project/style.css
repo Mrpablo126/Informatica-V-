@@ -1,0 +1,47 @@
+*{
+    height:140px;
+    weight:100px;
+}
+
+/* GABO*/
+header{
+
+    top:0;
+    width:100%;
+    background-color:#4169E1;
+    text-align:center;
+    font-size:60px;
+    margin-bottom: 0;
+    z-index: 99999;
+}
+
+nav {
+    display:flex;
+    gap: 10px;
+}
+
+/* GABO*/
+
+
+#spacearound {
+    padding: 1rem;
+    display:flex;
+    justify-content: space-around;
+}
+
+.box{
+    text-align: center;
+}
+
+#footer{
+top:12;
+justify-content: bottom;
+padding: 10rem;
+
+}
+p{
+
+    font-size: 25px;
+    padding: 21rem;
+    la cosa es que se pone medio chueco
+}
