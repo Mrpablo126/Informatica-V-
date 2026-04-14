@@ -1,7 +1,5 @@
 *{
-    height:140px;
-    weight:10px;
-    background-color:#565d69;
+    background-color: #565D69;
 }
 
 /* GABO*/
@@ -19,14 +17,17 @@ header{
 
 nav {
     display:flex;
-    gap: 100px;
+    gap: 845px;
     padding: 0.5rem;
-    margin-top: 10;
+    margin-top: 5;
     margin-bottom: 1;
-
+    margin-left:1;
+    margin-right:1;
     background-color:#d0ecf4;
 }
-
+a{
+    background-color:#d0ecf4;
+}
 /* GABO*/
 
 
@@ -37,6 +38,8 @@ nav {
 }
 
 .box{
+    margin-left:1;
+    margin-top: 20;
     text-align: left;
     height: 100%
 }
