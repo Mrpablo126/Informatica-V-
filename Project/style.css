@@ -1,6 +1,7 @@
 *{
     height:140px;
-    weight:100px;
+    weight:10px;
+    background-color:#565d69;
 }
 
 /* GABO*/
@@ -8,16 +9,22 @@ header{
 
     top:0;
     width:100%;
-    background-color:#4169E1;
+    background-color:#95cfd0;
     text-align:center;
     font-size:60px;
     margin-bottom: 0;
+    margin-top: 0;
     z-index: 99999;
 }
 
 nav {
     display:flex;
-    gap: 10px;
+    gap: 100px;
+    padding: 0.5rem;
+    margin-top: 10;
+    margin-bottom: 1;
+
+    background-color:#d0ecf4;
 }
 
 /* GABO*/
@@ -30,18 +37,19 @@ nav {
 }
 
 .box{
-    text-align: center;
+    text-align: left;
+    height: 100%
 }
 
 #footer{
 top:12;
-justify-content: bottom;
+justify-content: left;
 padding: 10rem;
 
 }
 p{
 
     font-size: 25px;
-    padding: 21rem;
-    la cosa es que se pone medio chueco
+    padding: 1rem;
+    text-align:left;
 }
