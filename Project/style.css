@@ -1,38 +1,13 @@
 header{
-
-    background-color:#95cfd0;
-    justify-content: space-between;
     display:flex;
-    width: 100%;
+    justify-content: space-around;
+    background: gray;
+    weight: 100%;
+    heigth: 70%;
 }
 #left{
 
-    width: 20px;
-    height: 20px;
-}
-#text{
-    text-size:20px;
 }
 #center{
 
 }
-body {
-    margin: 0;
-}
-#a {
-    background-color: peru;
-}
-
-#spacearound {
-    padding: 1rem;
-    display:flex;
-    justify-content: space-around;
-}
-
-.box{
-    margin-left:1;
-    margin-top: 20;
-    text-align: left;
-    height: 100%
-}
-
