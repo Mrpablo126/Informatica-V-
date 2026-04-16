@@ -1,14 +1,13 @@
-*{
-    weight:100%;
-    height:40%;
-}
+
+
 header{
     display:flex;
     justify-content: space-between;
     background: gray;
-    weight: 100%;
+    weight: 200%;
     heigth: 20%;
     flex:sticky;
+    border-radius: 0.2rem;
 }
 #left{
     display:flex;
@@ -36,6 +35,18 @@ header{
   margin-top: 15px;
 }
 image{
-    height: 550px;
-    weight:200px;
+    height: 30px;
+    weight:10px;
+}
+.box{
+    background: #2EB8A5;
+}
+.image{
+    background: red;
+}
+#background {
+    background: url("https://static1.educaedu.com.mx/adjuntos/9/00/64/uach---universidad-aut-noma-de-chihuahua-006431_large.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
