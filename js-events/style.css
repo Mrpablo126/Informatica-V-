@@ -1,3 +1,8 @@
 body{
+    background: #86CECB;
+}
+
+button{
     background: #5a676b;
+    color: white;
 }
