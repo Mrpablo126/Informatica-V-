@@ -3,14 +3,7 @@ function one(){
     const favoriteColor = "blue";
     let location = "Salon Profe Calahorrita";
     let mood = "Tired";
-    console
-}
-function two(){
-    const
-}
-function three(){
-    let
-}
-function four(){
-    let
+    console.log('My name is $[firstName] and my favorite color is ${favoriteColor}');
+    console.log("My actual location is ${location} i now im ${mood}");
+    let mood = "very tired"
 }
