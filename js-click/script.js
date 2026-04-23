@@ -1,6 +1,5 @@
-let i = 0;
-
-function count(){
-    i++;
-    alert("The Counter is " + i);
+function showTime() {
+  let timeNow = new Date();
+	let heading = document.querySelector('h1');
+	header.innerHTML = timeNow;
 }
