@@ -1,5 +1,6 @@
-function showTime() {
-  let timeNow = new Date();
-	let heading = document.querySelector('h1');
-	header.innerHTML = timeNow;
+let clicks = 0;
+function sumarClick() {
+	clicks++;
+	let heading = document.querySelector('#contador');
+    heading.innerHTML = clicks;
 }

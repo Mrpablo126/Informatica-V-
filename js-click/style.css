@@ -1,0 +1,14 @@
+body {
+background: black;
+color: lime;
+font-family: arial;
+text-align: center;
+margin-top: 100px;
+}
+
+button {
+font-size: 20px;
+padding: 10px 20px;
+background: lime;
+border: none;
+}
