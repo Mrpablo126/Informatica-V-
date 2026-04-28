@@ -1,6 +1,21 @@
+*{
+    backgroung: #8ea72f;
+}
 button {
-font-size: 20px;
-padding: 10px 20px;
-border: none;
+font-size: 70px;
+border: 10;
+padding-top: 2px;
+background: #34677a;
+}
+body{
+    text-align: center;
+    font-size: 90px;
+    background: #5c96a9;
+    color: #081b21;
+}
+h1{
+    font-size: 90px;
+    background:	#6c8d71;
+    border: 10;
 
 }
