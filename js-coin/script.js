@@ -1,16 +1,16 @@
 let choice = "";
 
-function Heads() {
+function Head() {
   choice = "Heads";
 }
 
-function chooseTails() {
+function Tails() {
   choice = "Tails";
 }
 
 function coin() {
   let resultText = document.getElementById("resultado");
-  let messageText = document.getElementById("r");
+  let messageText = document.getElementById("resultado");
   if (choice == "") {
     messageText.innerHTML = "Result";
     return;
