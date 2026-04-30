@@ -1,13 +1,41 @@
+let eleccion = "";
+
+function elegirCara(){
+    eleccion = "Heads";
+}
+
+function elegirSello(){
+    eleccion = "Tails";
+}
+
 function coin(){
     let randomNum = Math.random();
-    console.log(randomNum);
-    let result <= 0.5;
-    let subtitle = document.querySelector("h2");
+    let subtitle = document.querySelector("#resultado");
+    let mensaje = document.querySelector("#mensaje");
+
+    if (!subtitle || !mensaje){
+        console.error("No se encontraron los elementos en el HTML");
+        return;
+    }
+
+    if (eleccion === ""){
+        mensaje.innerHTML = "Primero elige cara o sello";
+        return;
+    }
+
+    let resultado;
 
     if (randomNum < 0.5){
-        subtitle.innerHTML = "Heads"
-    else{
-        subtitle.innerHTML = "Tails";
+        resultado = "Heads";
+    } else {
+        resultado = "Tails";
     }
-    if result =
+
+    subtitle.innerHTML = resultado;
+
+    if (eleccion === resultado){
+        mensaje.innerHTML = "¡Ganaste!";
+    } else {
+        mensaje.innerHTML = "Perdiste";
+    }
 }

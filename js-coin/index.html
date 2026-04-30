@@ -3,13 +3,19 @@
 <head>
     <title>js-coin</title>
      <link href="style.css" rel="stylesheet">
-     <script src="script.js"></script>
+
 </head>
 <body>
-    <h1>Coin Flip</h1>
-    <button onclick="coin()">Heads</button>
-    <button onclick="coin()">Tails</button>
-    <h2></h2>
 
+    <h1>Coin Flip</h1>
+    <button onclick="elegirCara()">Elegir Cara</button>
+    <button onclick="elegirSello()">Elegir Sello</button>
+
+    <button onclick="coin()">Lanzar moneda</button>
+
+    <h2 id="resultado">Resultado</h2>
+    <p id="mensaje"></p>
+
+    <script src="script.js"></script>
 </body>
 </html>
