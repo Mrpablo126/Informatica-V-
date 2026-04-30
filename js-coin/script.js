@@ -1,41 +1,32 @@
-let eleccion = "";
+let choice = "";
 
-function elegirCara(){
-    eleccion = "Heads";
+function Heads() {
+  choice = "Heads";
 }
 
-function elegirSello(){
-    eleccion = "Tails";
+function chooseTails() {
+  choice = "Tails";
 }
 
-function coin(){
-    let randomNum = Math.random();
-    let subtitle = document.querySelector("#resultado");
-    let mensaje = document.querySelector("#mensaje");
+function coin() {
+  let resultText = document.getElementById("resultado");
+  let messageText = document.getElementById("r");
+  if (choice == "") {
+    messageText.innerHTML = "Result";
+    return;
+  }
 
-    if (!subtitle || !mensaje){
-        console.error("No se encontraron los elementos en el HTML");
-        return;
-    }
-
-    if (eleccion === ""){
-        mensaje.innerHTML = "Primero elige cara o sello";
-        return;
-    }
-
-    let resultado;
-
-    if (randomNum < 0.5){
-        resultado = "Heads";
-    } else {
-        resultado = "Tails";
-    }
-
-    subtitle.innerHTML = resultado;
-
-    if (eleccion === resultado){
-        mensaje.innerHTML = "¡Ganaste!";
-    } else {
-        mensaje.innerHTML = "Perdiste";
-    }
+  let number = Math.random();
+  let result;
+  if (number < 0.5) {
+    result = "Heads";
+  } else {
+    result = "Tails";
+  }
+  resultText.innerHTML = result;
+  if (choice == result) {
+    messageText.innerHTML = "You win";
+  } else {
+    messageText.innerHTML = "You lose";
+  }
 }

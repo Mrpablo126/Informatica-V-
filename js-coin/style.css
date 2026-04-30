@@ -6,6 +6,7 @@ font-size: 70px;
 border: 10;
 padding-top: 2px;
 background: #34677a;
+gap: 1rem;
 }
 body{
     text-align: center;
