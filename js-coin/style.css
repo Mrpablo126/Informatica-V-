@@ -1,3 +1,22 @@
 *{
-    
+    backgroung: #8ea72f;
+}
+button {
+font-size: 70px;
+border: 10;
+padding-top: 2px;
+background: #34677a;
+gap: 1rem;
+}
+body{
+    text-align: center;
+    font-size: 90px;
+    background: #5c96a9;
+    color: #081b21;
+}
+h1{
+    font-size: 90px;
+    background:	#CBF7CB;
+    border: 10;
+
 }
