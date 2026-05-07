@@ -1,7 +1,7 @@
 let choice = "";
 
 function Head() {
-  choice = "Heads";
+  choice = "Heads";,
 }
 
 function Tails() {
