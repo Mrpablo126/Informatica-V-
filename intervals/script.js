@@ -1,19 +1,20 @@
-let counter = 15;
-let c = counter
-
-
+let counter = 5;
+let minute = counter / 60;
+let zero = 0;
 function count() {
     counter--;
     document.querySelector('h1').innerHTML = counter;
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    const damn = new Audio("damn-bird_KTWlhCD.mp3");
+    if (counter == 0){
+            damn.currenTime = 0;
+            damn.play();
+
+        }
+
     document.querySelector('button').onclick = function(){
-    setTimeout(count, 10)
     setInterval(count, 1000);
-    document.querySelector("button").disable = true;
     };
-    if (c = 0){
-        console.log("TILIN");
-    }
 });
